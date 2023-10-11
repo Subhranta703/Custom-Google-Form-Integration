@@ -1,0 +1,58 @@
+body {
+    font-family: 'Open Sans Display', sans-serif;
+}
+.wrapper{
+background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.form:hover {
+    color: #dbdbdb;
+}
+.form:hover {
+    background-color: #676c72;
+}
+.form{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 550;
+    background: white;
+    padding: 40px 45px;
+    border-radius: 20px;
+    font-size: 17px;
+    letter-spacing: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
+    max-width: 500px;
+    overflow: hidden;
+    width: 50%;
+    user-select: none;
+    transition: background-color 0.6s;
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* display: flex;
+    flex-direction: column; */
+}
+input[type="text"] {
+    width: 100%; /* Adjust the width as needed */
+    margin-bottom: 10px; /* Adjust the margin between inputs as needed */
+    /* Additional styling for input elements */
+  }
+div {
+    display: block;
+}
+.heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 21px;
+    letter-spacing: 2px;
+    margin-bottom: 35px;
+    user-select: none;
+}
